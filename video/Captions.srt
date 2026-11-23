@@ -1,0 +1,31 @@
+1
+00:00:00,000 --> 00:00:15,000
+Campus Compass is our source grounded campus helpdesk prototype. It makes the evidence, prompt and limitations visible. This milestone includes a working application, actual local model experiments, and reproducible checks.
+
+2
+00:00:15,000 --> 00:00:30,000
+A student asks about attendance. The application displays a curated answer, a source quote and a page reference. It also warns that this historical notification needs a current applicability check.
+
+3
+00:00:30,000 --> 00:00:45,000
+When a fee question lacks scope, the assistant asks for the programme, year and category. It does not invent an amount or attach a source that does not support the answer.
+
+4
+00:00:45,000 --> 00:01:00,000
+We ran the same eight questions across six prompt versions with a small local Qwen model. Version three produced valid JSON, but selected unrelated facts. The validator rejected that result.
+
+5
+00:01:00,000 --> 00:01:15,000
+Version four copied a schema placeholder into two outputs. Version five changed only that schema representation. The same development cases then passed all eight contracts. This is a pilot result, not a reliability guarantee.
+
+6
+00:01:15,000 --> 00:01:30,000
+The Prompt Studio exposes the full assembled prompt. Here, an invented fact ID is held for review. Only approved selections can reach the renderer, which supplies the curated wording and source ledger.
+
+7
+00:01:30,000 --> 00:01:45,000
+The package keeps all forty eight comparative model outputs. Separately, component checks match thirty nine of forty two expected statuses. Three paraphrase misses remain documented, even though retrieval found the right cards.
+
+8
+00:01:45,000 --> 00:02:00,000
+Open the standalone application, inspect the evidence, replay the experiments, and rerun the checks. Next, we will expand source coverage and use independent evaluation. This demonstration uses a synthetic narrator and verified application captures.

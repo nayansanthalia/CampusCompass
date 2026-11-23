@@ -1,0 +1,8 @@
+# Optional: regenerate documents/video, not needed to open the application.
+reportlab
+matplotlib
+Pillow
+pypdf
+piper-tts
+# External utilities: ffmpeg, ffprobe; DejaVu fonts.
+# Voice weights are external; see video/Transcript.md.

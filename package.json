@@ -1,0 +1,16 @@
+{
+  "name": "campuscompass",
+  "version": "2.0.0",
+  "private": true,
+  "description": "An evidence-based Bennett University helpdesk and prompt workspace.",
+  "engines": {
+    "node": ">=18.17"
+  },
+  "scripts": {
+    "start": "node source/server.js",
+    "dev": "node source/server.js",
+    "build": "python3 source/bundle.py",
+    "test": "python3 source/check_release.py",
+    "test:api": "python3 source/build_site.py && node --test source/test_api.js"
+  }
+}

@@ -1,0 +1,360 @@
+{
+  "schema_version": 2,
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Minimum Attendance Notification",
+      "url": "https://www.bennett.edu.in/wp-content/uploads/2022/09/Notification-for-Minimum-Attendance-for-Students.pdf",
+      "issued": "2022-09-08",
+      "historical": true,
+      "scope": "Notification effective from AY 2022-23 odd semester; current amendments not exhaustively checked",
+      "checked": "2026-11-17"
+    },
+    {
+      "id": "S2",
+      "title": "Standing Orders for Hostel",
+      "url": "https://www.bennett.edu.in/wp-content/uploads/2024/05/Standing-Orders-for-Hostel.pdf",
+      "issued": "2016-12-06",
+      "historical": true,
+      "scope": "Hostel residents; 2016 document uploaded at a 2024 URL. Upload year is not policy issue date.",
+      "checked": "2026-11-17"
+    },
+    {
+      "id": "S3",
+      "title": "SCSET Undergraduate Academic Rules",
+      "url": "https://www.bennett.edu.in/wp-content/uploads/2022/03/Academic-Rules-for-SCSET_UG.pdf",
+      "issued": "Not stated in extracted front matter",
+      "historical": true,
+      "scope": "SCSET undergraduate programmes; dated upload path is not proof of present applicability",
+      "checked": "2026-11-17"
+    },
+    {
+      "id": "S4",
+      "title": "Academic Calendar AY 2026-27",
+      "url": "https://d2xwywryb7yxbo.cloudfront.net/s3bucket-images/Academic-Calendar-2026-27.pdf",
+      "issued": "AY 2026-27; publication date not specified",
+      "historical": false,
+      "scope": "AY 2026-27; programme-specific schedules and later amendments may differ",
+      "checked": "2026-11-17"
+    },
+    {
+      "id": "S5",
+      "title": "Office of the Registrar",
+      "url": "https://www.bennett.edu.in/notices-registrar-office/",
+      "issued": "Web page; issue date unspecified",
+      "historical": false,
+      "scope": "Resource discovery only; a link listing does not establish the linked policy contents",
+      "checked": "2026-11-17"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "source_id": "S1",
+      "topic": "attendance",
+      "section": "p.1, approval paragraph",
+      "text": "The 8 September 2022 notification sets a 75% minimum attendance threshold for end-semester examination eligibility, effective from AY 2022-23 odd semester onward.",
+      "quote": "minimum attendance of 75%",
+      "aliases": [
+        "attendance",
+        "attend",
+        "percentage",
+        "hazri",
+        "present",
+        "75",
+        "exam eligibility"
+      ],
+      "claim_key": "attendance_threshold",
+      "value": "75%"
+    },
+    {
+      "id": "F02",
+      "source_id": "S2",
+      "topic": "hostel_room",
+      "section": "p.1, rule 1",
+      "text": "The hostel orders require written permission from the competent authority before changing an allocated room.",
+      "quote": "written permission of Competent Authority",
+      "aliases": [
+        "change room",
+        "room change",
+        "allocated room",
+        "swap room",
+        "shift room"
+      ]
+    },
+    {
+      "id": "F03",
+      "source_id": "S2",
+      "topic": "hostel_id",
+      "section": "p.1, rule 3",
+      "text": "Residents must show their ID card to security when entering or leaving the hostel gate.",
+      "quote": "show their ID card",
+      "aliases": [
+        "hostel id",
+        "id card",
+        "hostel gate",
+        "security card"
+      ]
+    },
+    {
+      "id": "F04",
+      "source_id": "S2",
+      "topic": "hostel_visitors",
+      "section": "p.2, rule 17",
+      "text": "The orders direct parents or guardians to meet residents in the visitor lounge during permitted hours with the warden’s permission, rather than in hostel rooms.",
+      "quote": "Visitor’s Lounge",
+      "aliases": [
+        "parents visit",
+        "parent visit",
+        "visitors",
+        "visitor",
+        "guardian",
+        "visit room"
+      ]
+    },
+    {
+      "id": "F05",
+      "source_id": "S2",
+      "topic": "hostel_night",
+      "section": "p.2, rule 20",
+      "text": "Staying out at night requires specific written permission from the warden or Dean of Students Welfare. The cited rule does not state a universal clock time.",
+      "quote": "in writing",
+      "aliases": [
+        "night out",
+        "night-out",
+        "curfew",
+        "stay out",
+        "late hostel",
+        "hostel timing"
+      ]
+    },
+    {
+      "id": "F06",
+      "source_id": "S2",
+      "topic": "hostel_pets",
+      "section": "p.2, rule 16",
+      "text": "The orders prohibit residents from keeping pets or engaging a private servant.",
+      "quote": "keep pets",
+      "aliases": [
+        "pets",
+        "pet dog",
+        "cat in hostel",
+        "private servant"
+      ]
+    },
+    {
+      "id": "F07",
+      "source_id": "S3",
+      "topic": "duration",
+      "section": "p.1, section 2",
+      "text": "The SCSET rules specify a minimum four years for B.Tech, and a maximum six years, subject to the document’s provisions.",
+      "quote": "minimum four years",
+      "aliases": [
+        "btech duration",
+        "b.tech duration",
+        "degree duration",
+        "maximum years"
+      ],
+      "program": "SCSET UG"
+    },
+    {
+      "id": "F08",
+      "source_id": "S3",
+      "topic": "audit",
+      "section": "p.3, section 7.3",
+      "text": "Audit-course credits do not count toward degree requirements under these SCSET rules.",
+      "quote": "No credits are given",
+      "aliases": [
+        "audit course",
+        "audit credits",
+        "auditing"
+      ],
+      "program": "SCSET UG"
+    },
+    {
+      "id": "F09",
+      "source_id": "S3",
+      "topic": "registration",
+      "section": "p.4, section 8.1",
+      "text": "A student receives no course credit without registration in that course under these rules.",
+      "quote": "not registered",
+      "aliases": [
+        "unregistered",
+        "without registration",
+        "course credit"
+      ],
+      "program": "SCSET UG"
+    },
+    {
+      "id": "F10",
+      "source_id": "S3",
+      "topic": "prerequisite",
+      "section": "p.5, section 8.6.2",
+      "text": "A student must pass a specified prerequisite before registering for the dependent course.",
+      "quote": "pre-requisite",
+      "aliases": [
+        "prerequisite",
+        "pre requisite",
+        "prerequisites",
+        "dependent course"
+      ],
+      "program": "SCSET UG"
+    },
+    {
+      "id": "F11",
+      "source_id": "S3",
+      "topic": "mentor",
+      "section": "p.5, section 8.8",
+      "text": "Students should consult their faculty adviser or nominated mentor about registration and subsequent changes.",
+      "quote": "faculty adviser/nominated mentor",
+      "aliases": [
+        "faculty adviser",
+        "faculty mentor",
+        "registration advice",
+        "mentor"
+      ],
+      "program": "SCSET UG"
+    },
+    {
+      "id": "F12",
+      "source_id": "S4",
+      "topic": "odd_exam",
+      "section": "p.4, rows beginning 10 December 2026",
+      "text": "The AY 2026-27 calendar places odd-semester end-semester examinations from 10 through 24 December 2026, excluding the non-examination dates shown in the calendar.",
+      "quote": "End Semester Examination",
+      "aliases": [
+        "odd semester exam",
+        "odd end semester",
+        "december exam",
+        "endsem odd",
+        "end semester exam",
+        "odd semester exams",
+        "odd semester examination",
+        "end semester examinations"
+      ],
+      "year": "2026-27",
+      "semester": "Odd",
+      "claim_key": "odd_exam_window",
+      "value": "2026-12-10/2026-12-24"
+    },
+    {
+      "id": "F13",
+      "source_id": "S4",
+      "topic": "condonation",
+      "section": "p.4, 30 November 2026 row",
+      "text": "The AY 2026-27 calendar lists 30 November 2026 as the last date to apply for attendance condonation. It does not establish who is eligible for condonation.",
+      "quote": "Attendance Condonation",
+      "aliases": [
+        "condonation",
+        "condone",
+        "attendance shortage",
+        "condonation deadline"
+      ],
+      "year": "2026-27",
+      "semester": "Odd"
+    },
+    {
+      "id": "F14",
+      "source_id": "S4",
+      "topic": "returning_classes",
+      "section": "p.2, 10 August 2026 row",
+      "text": "The calendar lists 10 August 2026 for returning students’ class commencement, with programme schedules to be shared separately by the schools.",
+      "quote": "Returning Students",
+      "aliases": [
+        "returning classes",
+        "returning student classes",
+        "senior classes",
+        "classes returning"
+      ],
+      "year": "2026-27",
+      "audience": "Returning"
+    },
+    {
+      "id": "F15",
+      "source_id": "S4",
+      "topic": "freshman_classes",
+      "section": "p.2, 14 August 2026 row",
+      "text": "The calendar lists 14 August 2026 for undergraduate freshman class commencement.",
+      "quote": "UG Freshman Students",
+      "aliases": [
+        "freshman classes",
+        "fresher classes",
+        "freshers classes",
+        "new student classes"
+      ],
+      "year": "2026-27",
+      "audience": "Freshman"
+    },
+    {
+      "id": "F16",
+      "source_id": "S4",
+      "topic": "even_classes",
+      "section": "p.5, 4 January 2027 row",
+      "text": "The calendar lists 4 January 2027 for even-semester class commencement across programmes.",
+      "quote": "EVEN Semester",
+      "aliases": [
+        "even classes",
+        "even semester classes",
+        "january classes",
+        "spring classes"
+      ],
+      "year": "2026-27",
+      "semester": "Even"
+    },
+    {
+      "id": "F17",
+      "source_id": "S5",
+      "topic": "certificate",
+      "section": "Registrar functions",
+      "text": "The Registrar office lists bonafide-certificate issuance as one of its responsibilities; this excerpt does not specify application steps or turnaround time.",
+      "quote": "Bonafide Certificates",
+      "aliases": [
+        "bonafide",
+        "bona fide",
+        "certificate",
+        "student certificate"
+      ]
+    },
+    {
+      "id": "F18",
+      "source_id": "S5",
+      "topic": "withdrawal",
+      "section": "Formats",
+      "text": "The Registrar page provides an admission-withdrawal form listing; that listing alone does not establish refund eligibility.",
+      "quote": "Admission Withdrawal Form",
+      "aliases": [
+        "withdrawal form",
+        "withdraw admission",
+        "leave university",
+        "cancel admission"
+      ]
+    },
+    {
+      "id": "F19",
+      "source_id": "S5",
+      "topic": "refund",
+      "section": "Policies",
+      "text": "The Registrar page lists a refund-policy resource for AY 2026-27. Its monetary rules were not ingested in this build.",
+      "quote": "Refund Policy AY 2026-27",
+      "aliases": [
+        "refund policy link",
+        "where refund policy",
+        "refund document"
+      ],
+      "year": "2026-27"
+    }
+  ],
+  "team": {
+    "name": "TEAM AETHERMIND",
+    "id": "PE-B37-13",
+    "leader": "Rishi Mulchandani",
+    "batch": "B37-B48",
+    "members": [
+      "Rishi Mulchandani",
+      "Nayan Santhalia",
+      "Poshkar Garg",
+      "Aditya Kumar",
+      "Bhavishya Jakhar"
+    ]
+  }
+}

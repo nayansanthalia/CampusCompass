@@ -1,0 +1,26 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "status",
+    "fact_ids"
+  ],
+  "properties": {
+    "status": {
+      "enum": [
+        "answered",
+        "clarify",
+        "not_found",
+        "conflict",
+        "refused"
+      ]
+    },
+    "fact_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 3
+    }
+  }
+}

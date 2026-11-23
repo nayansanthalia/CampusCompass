@@ -1,0 +1,143 @@
+{
+  "generated_at": "2026-11-18T18:29:33.739Z",
+  "type": "deterministic component tests; not LLM quality scores",
+  "questions": 42,
+  "status_pass": 42,
+  "development": {
+    "n": 30,
+    "pass": 30
+  },
+  "challenge": {
+    "n": 12,
+    "pass": 12
+  },
+  "retrieval": {
+    "n": 27,
+    "hits": 27
+  },
+  "validator": {
+    "n": 10,
+    "pass": 10
+  },
+  "policy_tests": [
+    {
+      "name": "Explicit matching-scope contradiction",
+      "expected": "conflict",
+      "actual": "conflict",
+      "pass": true
+    },
+    {
+      "name": "Complementary same-topic facts are not conflicts",
+      "expected": "answered",
+      "actual": "answered",
+      "pass": true
+    }
+  ]
+}
+V5 gate/schema assembly assertions passed.
+N01 answered answered F07 true
+N02 answered answered F04 true
+N03 answered answered F17 true
+N04 not_found not_found  true
+N05 not_found not_found  true
+N06 clarify clarify  true
+N07 refused refused  true
+N08 clarify clarify  true
+N09 not_found not_found  true
+N10 refused refused  true
+N11 not_found not_found  true
+N12 answered answered F04 true
+20 scope, input and multi-topic regressions passed
+{
+  model: 'Qwen/Qwen2.5-0.5B-Instruct-GGUF',
+  total_runs: 48,
+  versions: [
+    {
+      version: 'V0',
+      n: 8,
+      json_valid: 0,
+      status_correct: 0,
+      fact_correct: 0,
+      contract_pass: 0,
+      mean_prompt_tokens: 481,
+      mean_seconds: 6.35
+    },
+    {
+      version: 'V1',
+      n: 8,
+      json_valid: 0,
+      status_correct: 0,
+      fact_correct: 0,
+      contract_pass: 0,
+      mean_prompt_tokens: 511,
+      mean_seconds: 6.26
+    },
+    {
+      version: 'V2',
+      n: 8,
+      json_valid: 0,
+      status_correct: 0,
+      fact_correct: 0,
+      contract_pass: 0,
+      mean_prompt_tokens: 539,
+      mean_seconds: 5.36
+    },
+    {
+      version: 'V3',
+      n: 8,
+      json_valid: 8,
+      status_correct: 3,
+      fact_correct: 3,
+      contract_pass: 1,
+      mean_prompt_tokens: 680,
+      mean_seconds: 5.31
+    },
+    {
+      version: 'V4',
+      n: 8,
+      json_valid: 8,
+      status_correct: 8,
+      fact_correct: 6,
+      contract_pass: 6,
+      mean_prompt_tokens: 351,
+      mean_seconds: 1.61
+    },
+    {
+      version: 'V5',
+      n: 8,
+      json_valid: 8,
+      status_correct: 8,
+      fact_correct: 8,
+      contract_pass: 8,
+      mean_prompt_tokens: 415,
+      mean_seconds: 1.17
+    }
+  ],
+  notes: [
+    'V0/V1 are free-form designs; JSON contract scores measure integration readiness, not overall answer quality.',
+    'Status agreement only scores explicit parseable JSON statuses; prose refusals can be useful but receive zero on this metric.',
+    'No independent human answer-quality score is claimed.',
+    'V0-V3 use the same saved question/context within each case. V4 adds the gate and reduces context; its gain is a workflow refinement on the same development cases.'
+  ]
+}
+CampusCompass offline build completed (298877 bytes).
+CampusCompass hosted Worker built.
+✔ health, source index and HEAD advertise the same release data (31.126709ms)
+✔ answer responses match the offline engine including scope and citations (30.201456ms)
+✔ invalid inputs produce actionable 400 responses (20.74712ms)
+✔ JSON parser requires the right media type and a complete UTF-8 document (4.584616ms)
+✔ size limits apply to fixed and streamed request bodies (3.654205ms)
+✔ wrong origin, wrong methods and unrelated file paths have stable errors (6.927354ms)
+✔ draft endpoint accepts supported IDs and withholds unapproved claims (7.708273ms)
+✔ model adapter returns raw output but renders only curated claims (9.657097ms)
+✔ model congestion, timeouts and failures have distinct responses (4.889078ms)
+✔ deployed Worker serves the same UI and evidence API without local inference (154.886714ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 425.256356
+Release checks passed for routing, citations, scope, historical model scores, runtime APIs, and both builds.

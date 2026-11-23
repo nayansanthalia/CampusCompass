@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="490" height="270" preserveAspectRatio="xMinYMin meet" viewBox="0 0 490 270" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="490" height="270"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-270)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="194" width="224" height="65" rx="8" ry="8" style="stroke: rgb(61%,74%,70%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(92%,95%,94%); fill-rule: evenodd;"/>
+			<text x="12" y="237" style="font-family: DVB; font-size: 10px;fill: rgb(6%,17%,24%); stroke:none;" transform="translate(0,474) scale(1,-1)">1 / Question + scope</text>
+			<text x="12" y="211" style="font-family: DV; font-size: 8px;fill: rgb(39%,46%,50%); stroke:none;" transform="translate(0,422) scale(1,-1)">Programme / academic year / semester</text>
+			<rect x="266" y="194" width="224" height="65" rx="8" ry="8" style="stroke: rgb(61%,74%,70%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(92%,95%,94%); fill-rule: evenodd;"/>
+			<text x="278" y="237" style="font-family: DVB; font-size: 10px;fill: rgb(6%,17%,24%); stroke:none;" transform="translate(0,474) scale(1,-1)">2 / Retrieve evidence</text>
+			<text x="278" y="211" style="font-family: DV; font-size: 8px;fill: rgb(39%,46%,50%); stroke:none;" transform="translate(0,422) scale(1,-1)">BM25-style ranking + aliases</text>
+			<path d="M 224,226 L 266,226 Z" style="stroke: rgb(3%,48%,45%); stroke-linecap: butt; stroke-width: 1.5;"/>
+			<polygon points="266 226, 260 229, 260 223" style="stroke: rgb(3%,48%,45%); stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,48%,45%); fill-rule: evenodd;"/>
+			<rect x="266" y="99" width="224" height="65" rx="8" ry="8" style="stroke: rgb(61%,74%,70%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(92%,95%,94%); fill-rule: evenodd;"/>
+			<text x="278" y="142" style="font-family: DVB; font-size: 10px;fill: rgb(6%,17%,24%); stroke:none;" transform="translate(0,284) scale(1,-1)">3 / Application gate</text>
+			<text x="278" y="116" style="font-family: DV; font-size: 8px;fill: rgb(39%,46%,50%); stroke:none;" transform="translate(0,232) scale(1,-1)">Scope / source age / refusal / conflicts</text>
+			<path d="M 378,194 L 378,164 Z" style="stroke: rgb(3%,48%,45%); stroke-linecap: butt; stroke-width: 1.5;"/>
+			<polygon points="378 164, 375 170, 381 170" style="stroke: rgb(3%,48%,45%); stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,48%,45%); fill-rule: evenodd;"/>
+			<rect x="0" y="99" width="224" height="65" rx="8" ry="8" style="stroke: rgb(61%,74%,70%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(92%,95%,94%); fill-rule: evenodd;"/>
+			<text x="12" y="142" style="font-family: DVB; font-size: 10px;fill: rgb(6%,17%,24%); stroke:none;" transform="translate(0,284) scale(1,-1)">4 / Optional local model</text>
+			<text x="12" y="116" style="font-family: DV; font-size: 8px;fill: rgb(39%,46%,50%); stroke:none;" transform="translate(0,232) scale(1,-1)">V5 selects permitted fact IDs</text>
+			<path d="M 266,131 L 224,131 Z" style="stroke: rgb(3%,48%,45%); stroke-linecap: butt; stroke-width: 1.5;"/>
+			<polygon points="224 131, 221 137, 227 137" style="stroke: rgb(3%,48%,45%); stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,48%,45%); fill-rule: evenodd;"/>
+			<rect x="0" y="4" width="224" height="65" rx="8" ry="8" style="stroke: rgb(61%,74%,70%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(92%,95%,94%); fill-rule: evenodd;"/>
+			<text x="12" y="47" style="font-family: DVB; font-size: 10px;fill: rgb(6%,17%,24%); stroke:none;" transform="translate(0,94) scale(1,-1)">5 / Contract validator</text>
+			<text x="12" y="21" style="font-family: DV; font-size: 8px;fill: rgb(39%,46%,50%); stroke:none;" transform="translate(0,42) scale(1,-1)">Reject unknown / unrelated / extra fields</text>
+			<path d="M 112,99 L 112,69 Z" style="stroke: rgb(3%,48%,45%); stroke-linecap: butt; stroke-width: 1.5;"/>
+			<polygon points="112 69, 109 75, 115 75" style="stroke: rgb(3%,48%,45%); stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,48%,45%); fill-rule: evenodd;"/>
+			<rect x="266" y="4" width="224" height="65" rx="8" ry="8" style="stroke: rgb(61%,74%,70%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(92%,95%,94%); fill-rule: evenodd;"/>
+			<text x="278" y="47" style="font-family: DVB; font-size: 10px;fill: rgb(6%,17%,24%); stroke:none;" transform="translate(0,94) scale(1,-1)">6 / Answer + evidence ledger</text>
+			<text x="278" y="21" style="font-family: DV; font-size: 8px;fill: rgb(39%,46%,50%); stroke:none;" transform="translate(0,42) scale(1,-1)">Curated wording / short quote / source date</text>
+			<path d="M 224,36 L 266,36 Z" style="stroke: rgb(3%,48%,45%); stroke-linecap: butt; stroke-width: 1.5;"/>
+			<polygon points="266 36, 260 39, 260 33" style="stroke: rgb(3%,48%,45%); stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,48%,45%); fill-rule: evenodd;"/>
+		</g>
+	</g>
+</svg>

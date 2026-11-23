@@ -1,0 +1,210 @@
+[
+  {
+    "name": "Conflicting selected year",
+    "question": "When are odd semester exams in 2026-27?",
+    "scope": {
+      "year": "2025-26"
+    },
+    "expected": "clarify",
+    "actual": "clarify",
+    "facts": [],
+    "pass": true
+  },
+  {
+    "name": "Conflicting selected semester",
+    "question": "When are odd semester exams in 2026-27?",
+    "scope": {
+      "semester": "Even"
+    },
+    "expected": "clarify",
+    "actual": "clarify",
+    "facts": [],
+    "pass": true
+  },
+  {
+    "name": "Conflicting selected programme",
+    "question": "What is the B.Tech duration?",
+    "scope": {
+      "program": "Other programme"
+    },
+    "expected": "clarify",
+    "actual": "clarify",
+    "facts": [],
+    "pass": true
+  },
+  {
+    "name": "Two academic years",
+    "question": "When are odd semester exams in 2025-26 and 2026-27?",
+    "scope": {},
+    "expected": "clarify",
+    "actual": "clarify",
+    "facts": [],
+    "pass": true
+  },
+  {
+    "name": "Two policy questions",
+    "question": "What is minimum attendance and what is the night-out rule?",
+    "scope": {},
+    "expected": "clarify",
+    "actual": "clarify",
+    "facts": [],
+    "pass": true
+  },
+  {
+    "name": "Punctuation-only question",
+    "question": "?!",
+    "scope": {},
+    "expected": "clarify",
+    "actual": "clarify",
+    "facts": [],
+    "pass": true
+  },
+  {
+    "name": "Overlong question",
+    "question": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "scope": {},
+    "expected": "clarify",
+    "actual": "clarify",
+    "facts": [],
+    "pass": true
+  },
+  {
+    "name": "Equivalent year formats",
+    "question": "When are odd semester exams in 2026–2027?",
+    "scope": {
+      "year": "2026-27"
+    },
+    "expected": "answered",
+    "actual": "answered",
+    "facts": [
+      "F12"
+    ],
+    "pass": true
+  },
+  {
+    "name": "Year written out in scope",
+    "question": "When are odd semester exams?",
+    "scope": {
+      "year": "2026/2027"
+    },
+    "expected": "answered",
+    "actual": "answered",
+    "facts": [
+      "F12"
+    ],
+    "pass": true
+  },
+  {
+    "name": "Invalid year range",
+    "question": "When are odd semester exams in 2026-28?",
+    "scope": {},
+    "expected": "clarify",
+    "actual": "clarify",
+    "facts": [],
+    "pass": true
+  },
+  {
+    "name": "Ambiguous semesters",
+    "question": "When are odd and even semester exams in 2026-27?",
+    "scope": {},
+    "expected": "clarify",
+    "actual": "clarify",
+    "facts": [],
+    "pass": true
+  },
+  {
+    "name": "Returning group from scope",
+    "question": "When do classes start?",
+    "scope": {
+      "year": "2026-27",
+      "audience": "Returning"
+    },
+    "expected": "answered",
+    "actual": "answered",
+    "facts": [
+      "F14"
+    ],
+    "pass": true
+  },
+  {
+    "name": "Even semester from scope",
+    "question": "When do classes start?",
+    "scope": {
+      "year": "2026-27",
+      "semester": "Even"
+    },
+    "expected": "answered",
+    "actual": "answered",
+    "facts": [
+      "F16"
+    ],
+    "pass": true
+  },
+  {
+    "name": "Conflicting audience",
+    "question": "When do freshman classes start in 2026-27?",
+    "scope": {
+      "audience": "Returning"
+    },
+    "expected": "clarify",
+    "actual": "clarify",
+    "facts": [],
+    "pass": true
+  },
+  {
+    "name": "Refund resource year mismatch",
+    "question": "Where is the refund policy link for 2025-26?",
+    "scope": {},
+    "expected": "not_found",
+    "actual": "not_found",
+    "facts": [],
+    "pass": true
+  },
+  {
+    "name": "Current applicability of historical notice",
+    "question": "What is the attendance requirement?",
+    "scope": {
+      "year": "2026-27"
+    },
+    "expected": "not_found",
+    "actual": "not_found",
+    "facts": [],
+    "pass": true
+  },
+  {
+    "name": "Academic marks are outside scope",
+    "question": "Show my marks for this semester",
+    "scope": {},
+    "expected": "refused",
+    "actual": "refused",
+    "facts": [],
+    "pass": true
+  },
+  {
+    "name": "Passing grade is not attendance",
+    "question": "What percentage do I need to pass my exam?",
+    "scope": {},
+    "expected": "not_found",
+    "actual": "not_found",
+    "facts": [],
+    "pass": true
+  },
+  {
+    "name": "Bonafide listing is not a degree certificate",
+    "question": "How can I get my degree certificate?",
+    "scope": {},
+    "expected": "not_found",
+    "actual": "not_found",
+    "facts": [],
+    "pass": true
+  },
+  {
+    "name": "Visitor limits are not established",
+    "question": "How many visitors can I bring to the hostel?",
+    "scope": {},
+    "expected": "not_found",
+    "actual": "not_found",
+    "facts": [],
+    "pass": true
+  }
+]

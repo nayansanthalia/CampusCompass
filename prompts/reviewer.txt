@@ -1,0 +1,1 @@
+Verify status against scope/evidence; verify each selected fact ID is in the retrieved context; check relevance; check conflicts without assuming supersession. Return PASS or REVISE with a short public reason. The implemented validator enforces membership and the application decision; semantic relevance still needs human review.

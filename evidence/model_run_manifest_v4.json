@@ -1,0 +1,21 @@
+{
+  "run_started": "2026-11-17T11:19:11.418215+00:00",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct-GGUF",
+  "filename": "qwen2.5-0.5b-instruct-q4_k_m.gguf",
+  "sha256": "74a4da8c9fdbcd15bd1f6d01d621410d31c6fc00986f5eb687824e7b93d7a9db",
+  "llama_cpp_python": "0.3.36",
+  "python": "3.12.14",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "n_ctx": 4096,
+  "n_threads": 4,
+  "settings": {
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "max_tokens": 160,
+    "repeat_penalty": 1.0,
+    "seed": 42
+  },
+  "runs": 8,
+  "sampling": "one deterministic sample per case/version; no forced JSON grammar",
+  "design": "V4 refinement uses explicit application gates and reduced context after V3 errors; development rerun, not independent holdout"
+}

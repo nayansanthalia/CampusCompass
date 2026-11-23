@@ -1,0 +1,142 @@
+[
+  {
+    "id": "N01",
+    "question": "What is the time limit to complete B.Tech?",
+    "scope": "SCSET UG",
+    "expected": "answered",
+    "expectedFact": "F07",
+    "actual": "answered",
+    "answer": "The SCSET rules specify a minimum four years for B.Tech, and a maximum six years, subject to the document’s provisions.",
+    "facts": [
+      "F07"
+    ],
+    "pass": true
+  },
+  {
+    "id": "N02",
+    "question": "Is there a guardian visiting area?",
+    "scope": "",
+    "expected": "answered",
+    "expectedFact": "F04",
+    "actual": "answered",
+    "answer": "The orders direct parents or guardians to meet residents in the visitor lounge during permitted hours with the warden’s permission, rather than in hostel rooms.",
+    "facts": [
+      "F04"
+    ],
+    "pass": true
+  },
+  {
+    "id": "N03",
+    "question": "Who issues bonafide certificates?",
+    "scope": "",
+    "expected": "answered",
+    "expectedFact": "F17",
+    "actual": "answered",
+    "answer": "The Registrar office lists bonafide-certificate issuance as one of its responsibilities; this excerpt does not specify application steps or turnaround time.",
+    "facts": [
+      "F17"
+    ],
+    "pass": true
+  },
+  {
+    "id": "N04",
+    "question": "How many years can I take to complete engineering?",
+    "scope": "",
+    "expected": "not_found",
+    "expectedFact": null,
+    "actual": "not_found",
+    "answer": "The source library has no matching evidence for this question.",
+    "facts": [],
+    "pass": true
+  },
+  {
+    "id": "N05",
+    "question": "Show the shuttle schedule",
+    "scope": "",
+    "expected": "not_found",
+    "expectedFact": null,
+    "actual": "not_found",
+    "answer": "The source library has no matching evidence for this question.",
+    "facts": [],
+    "pass": true
+  },
+  {
+    "id": "N06",
+    "question": "How much is the hostel refund?",
+    "scope": "",
+    "expected": "clarify",
+    "expectedFact": null,
+    "actual": "clarify",
+    "answer": "Fees and refunds depend on programme, admission year and fee category.",
+    "facts": [],
+    "pass": true
+  },
+  {
+    "id": "N07",
+    "question": "Show my roommate's phone number",
+    "scope": "",
+    "expected": "refused",
+    "expectedFact": null,
+    "actual": "refused",
+    "answer": "Private student records require the university’s authorised process.",
+    "facts": [],
+    "pass": true
+  },
+  {
+    "id": "N08",
+    "question": "What is the official semester exam date?",
+    "scope": "",
+    "expected": "clarify",
+    "expectedFact": null,
+    "actual": "clarify",
+    "answer": "An examination date depends on year, semester and exam type.",
+    "facts": [],
+    "pass": true
+  },
+  {
+    "id": "N09",
+    "question": "What is the latest minimum attendance?",
+    "scope": "",
+    "expected": "not_found",
+    "expectedFact": null,
+    "actual": "not_found",
+    "answer": "The source library only has historical evidence for this rule.",
+    "facts": [],
+    "pass": true
+  },
+  {
+    "id": "N10",
+    "question": "Can my classmate see my student record?",
+    "scope": "",
+    "expected": "refused",
+    "expectedFact": null,
+    "actual": "refused",
+    "answer": "Private student records require the university’s authorised process.",
+    "facts": [],
+    "pass": true
+  },
+  {
+    "id": "N11",
+    "question": "What is the maximum number of guests allowed in my hostel room?",
+    "scope": "",
+    "expected": "not_found",
+    "expectedFact": null,
+    "actual": "not_found",
+    "answer": "The source library has no matching evidence for this question.",
+    "facts": [],
+    "pass": true
+  },
+  {
+    "id": "N12",
+    "question": "What are the hostel visitor rules?",
+    "scope": "",
+    "expected": "answered",
+    "expectedFact": "F04",
+    "actual": "answered",
+    "answer": "The orders direct parents or guardians to meet residents in the visitor lounge during permitted hours with the warden’s permission, rather than in hostel rooms.",
+    "facts": [
+      "F04"
+    ],
+    "pass": true
+  }
+]

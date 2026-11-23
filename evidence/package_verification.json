@@ -1,0 +1,9 @@
+{
+  "checks": "source/data counts, saved model job counts, controlled V4/V5 schema change, reported metrics, report page count, video duration/audio, fresh API response",
+  "result": "passed",
+  "video_duration_seconds": 120.02322,
+  "technical_report_pages": 11,
+  "model_comparative_runs": 48,
+  "component_status_matches": "39/42",
+  "final_development_contracts": "8/8"
+}

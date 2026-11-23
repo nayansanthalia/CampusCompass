@@ -1,0 +1,14 @@
+[
+ ["N01","What is the time limit to complete B.Tech?","SCSET UG","answered","F07"],
+ ["N02","Is there a guardian visiting area?","","answered","F04"],
+ ["N03","Who issues bonafide certificates?","","answered","F17"],
+ ["N04","How many years can I take to complete engineering?","","not_found",null],
+ ["N05","Show the shuttle schedule","","not_found",null],
+ ["N06","How much is the hostel refund?","","clarify",null],
+ ["N07","Show my roommate's phone number","","refused",null],
+ ["N08","What is the official semester exam date?","","clarify",null],
+ ["N09","What is the latest minimum attendance?","","not_found",null],
+ ["N10","Can my classmate see my student record?","","refused",null],
+ ["N11","What is the maximum number of guests allowed in my hostel room?","","not_found",null],
+ ["N12","What are the hostel visitor rules?","","answered","F04"]
+]

@@ -1,0 +1,127 @@
+{
+  "request": {
+    "question": "What is the minimum attendance requirement?",
+    "scope": {},
+    "version": "V5"
+  },
+  "response": {
+    "raw_output": "{\n  \"status\": \"answered\",\n  \"fact_ids\": [\"F01\"]\n}",
+    "validation": {
+      "pass": true,
+      "issues": [],
+      "checked": [
+        "JSON contract",
+        "fact membership",
+        "scope/status policy",
+        "approved wording"
+      ],
+      "semantic_note": "Checks establish consistency with curated cards and application policy; source interpretation and corpus coverage still need human review.",
+      "result": {
+        "question": "What is the minimum attendance requirement?",
+        "scope": {},
+        "retrieved": [
+          {
+            "id": "F01",
+            "source_id": "S1",
+            "topic": "attendance",
+            "section": "p.1, approval paragraph",
+            "text": "The 8 September 2022 notification sets a 75% minimum attendance threshold for end-semester examination eligibility, effective from AY 2022-23 odd semester onward.",
+            "quote": "minimum attendance of 75%",
+            "aliases": [
+              "attendance",
+              "attend",
+              "percentage",
+              "hazri",
+              "present",
+              "75",
+              "exam eligibility"
+            ],
+            "claim_key": "attendance_threshold",
+            "value": "75%",
+            "score": 14.171,
+            "alias_match": "attendance"
+          },
+          {
+            "id": "F13",
+            "source_id": "S4",
+            "topic": "condonation",
+            "section": "p.4, 30 November 2026 row",
+            "text": "The AY 2026-27 calendar lists 30 November 2026 as the last date to apply for attendance condonation. It does not establish who is eligible for condonation.",
+            "quote": "Attendance Condonation",
+            "aliases": [
+              "condonation",
+              "condone",
+              "attendance shortage",
+              "condonation deadline"
+            ],
+            "year": "2026-27",
+            "semester": "Odd",
+            "score": 2.873,
+            "alias_match": null
+          },
+          {
+            "id": "F07",
+            "source_id": "S3",
+            "topic": "duration",
+            "section": "p.1, section 2",
+            "text": "The SCSET rules specify a minimum four years for B.Tech, and a maximum six years, subject to the document\u2019s provisions.",
+            "quote": "minimum four years",
+            "aliases": [
+              "btech duration",
+              "b.tech duration",
+              "degree duration",
+              "maximum years"
+            ],
+            "program": "SCSET UG",
+            "score": 2.094,
+            "alias_match": null
+          }
+        ],
+        "status": "answered",
+        "selected": [
+          {
+            "id": "F01",
+            "source_id": "S1",
+            "topic": "attendance",
+            "section": "p.1, approval paragraph",
+            "text": "The 8 September 2022 notification sets a 75% minimum attendance threshold for end-semester examination eligibility, effective from AY 2022-23 odd semester onward.",
+            "quote": "minimum attendance of 75%",
+            "aliases": [
+              "attendance",
+              "attend",
+              "percentage",
+              "hazri",
+              "present",
+              "75",
+              "exam eligibility"
+            ],
+            "claim_key": "attendance_threshold",
+            "value": "75%"
+          }
+        ],
+        "reason": "Supported by the selected evidence cards.",
+        "next": "Confirm later amendments before a consequential decision.",
+        "answer": "The 8 September 2022 notification sets a 75% minimum attendance threshold for end-semester examination eligibility, effective from AY 2022-23 odd semester onward.",
+        "citations": [
+          {
+            "fact_id": "F01",
+            "source_id": "S1",
+            "section": "p.1, approval paragraph",
+            "quote": "minimum attendance of 75%",
+            "id": "S1",
+            "title": "Minimum Attendance Notification",
+            "url": "https://www.bennett.edu.in/wp-content/uploads/2022/09/Notification-for-Minimum-Attendance-for-Students.pdf",
+            "issued": "2022-09-08",
+            "historical": true,
+            "scope": "Notification effective from AY 2022-23 odd semester; current amendments not exhaustively checked",
+            "checked": "2026-11-17"
+          }
+        ],
+        "caution": "Historical source: current applicability and later amendments need confirmation.",
+        "confidence": "No numerical confidence score is inferred.",
+        "mode": "Deterministic evidence workflow"
+      }
+    },
+    "seconds": 1.999
+  }
+}

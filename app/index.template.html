@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="/*CSP*/">
+  <meta name="description" content="CampusCompass is a source-grounded student helpdesk and prompt engineering workspace for Bennett University.">
+  <meta name="theme-color" content="#121831">
+  <title>CampusCompass | Bennett University Helpdesk</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%234c56d4'/%3E%3Cpath d='M23 9l-4 10-10 4 4-10 10-4Z' fill='none' stroke='white' stroke-width='2' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <style>/*STYLE*/</style>
+</head>
+<body>
+  <svg class="icon-sprite" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="i-compass" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m16.4 7.6-2.5 6.3-6.3 2.5 2.5-6.3 6.3-2.5Z"/></symbol>
+    <symbol id="i-message" viewBox="0 0 24 24"><path d="M21 11.5a8.5 8.5 0 0 1-8.5 8.5H4l1.7-4A8.5 8.5 0 1 1 21 11.5Z"/><path d="M8.5 11.5h7"/></symbol>
+    <symbol id="i-flask" viewBox="0 0 24 24"><path d="M9 3h6m-5 0v7l-5.4 8a2 2 0 0 0 1.65 3h11.5a2 2 0 0 0 1.65-3L14 10V3M8 15h8"/></symbol>
+    <symbol id="i-library" viewBox="0 0 24 24"><path d="M3 5h4v15H3zM7 4h5v16H7zM15 5l4-1 3 14.5-4 1z"/></symbol>
+    <symbol id="i-chart" viewBox="0 0 24 24"><path d="M4 4v16h16M8 15v-3m4 3V8m4 7v-5m4 5V5"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v5m0-8h.01"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-external" viewBox="0 0 24 24"><path d="M13 5h6v6m0-6-8 8m6 0v6H5V7h6"/></symbol>
+    <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></symbol>
+    <symbol id="i-chevron-down" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+    <symbol id="i-sliders" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16M8 4v4m8 2v4m-6 2v4"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 5 5L20 7"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="m12 3 8 3v5c0 4.5-3 7.7-8 10-5-2.3-8-5.5-8-10V6l8-3Z"/><path d="m9 12 2 2 4-4"/></symbol>
+    <symbol id="i-alert" viewBox="0 0 24 24"><path d="m10.3 4.5-7 12.2a2 2 0 0 0 1.7 3H19a2 2 0 0 0 1.7-3l-7-12.2a2 2 0 0 0-3.4 0ZM12 9v4m0 3h.01"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="4" y="6" width="16" height="14" rx="2"/><path d="M8 4v4m8-4v4M4 11h16"/></symbol>
+    <symbol id="i-home" viewBox="0 0 24 24"><path d="m3 10 9-7 9 7M5 9v11h14V9m-9 11v-6h4v6"/></symbol>
+    <symbol id="i-file" viewBox="0 0 24 24"><path d="M6 3h8l4 4v14H6V3Zm8 0v5h4m-9 5h6m-6 4h6"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="5.5"/><path d="m15 15 4 4"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 4H6a2 2 0 0 0-2 2v10"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="m8 5 12 7-12 7V5Z"/></symbol>
+    <symbol id="i-refresh" viewBox="0 0 24 24"><path d="M19.5 8A8 8 0 1 0 20 14m0-10v5h-5"/></symbol>
+    <symbol id="i-filter" viewBox="0 0 24 24"><path d="M4 5h16l-6 7v6l-4 2v-8L4 5Z"/></symbol>
+  </svg>
+  <a class="skip" href="#main-content">Skip to content</a>
+
+  <div class="shell">
+    <aside class="sidebar">
+      <a class="brand" href="#ask" data-view="ask">
+        <span class="brand-mark"><svg class="icon" aria-hidden="true"><use href="#i-compass"/></svg></span>
+        <span><strong>CampusCompass</strong><small>Bennett University</small></span>
+      </a>
+      <nav class="nav" aria-label="CampusCompass navigation">
+        <a href="#ask" data-view="ask" aria-current="page"><svg class="icon" aria-hidden="true"><use href="#i-message"/></svg>Helpdesk</a>
+        <a href="#lab" data-view="lab"><svg class="icon" aria-hidden="true"><use href="#i-flask"/></svg>Prompt Studio</a>
+        <a href="#sources" data-view="sources"><svg class="icon" aria-hidden="true"><use href="#i-library"/></svg>Evidence Library</a>
+        <a href="#tests" data-view="tests"><svg class="icon" aria-hidden="true"><use href="#i-chart"/></svg>Evaluation</a>
+        <a href="#project" data-view="project"><svg class="icon" aria-hidden="true"><use href="#i-info"/></svg>Project</a>
+      </nav>
+      <div class="sidebar-team">
+        <span class="team-mark" aria-hidden="true">A</span>
+        <span><strong>Team AetherMind</strong><small>PE-B37-13 · SCSE4041</small></span>
+      </div>
+    </aside>
+
+    <main id="main-content" class="main" tabindex="-1">
+      <header class="topbar">
+        <div class="breadcrumb"><span>Workspace</span><svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg><strong id="view-name">Helpdesk</strong></div>
+        <div id="runtime" class="runtime" role="status" data-mode="offline"><span class="runtime-dot"></span><span id="runtime-label">Offline mode</span></div>
+      </header>
+
+      <div class="workspace">
+        <section id="ask" class="view" aria-labelledby="ask-title">
+          <header class="hero">
+            <div class="hero-copy">
+              <span class="hero-kicker"><svg class="icon" aria-hidden="true"><use href="#i-compass"/></svg> Student helpdesk</span>
+              <h1 id="ask-title" tabindex="-1">Campus answers,<br>with sources.</h1>
+              <p>Find guidance on attendance, hostel rules and academic dates, with links to the official evidence.</p>
+            </div>
+            <span class="hero-caption">Illustrative campus image</span>
+          </header>
+
+          <div class="helpdesk-grid">
+            <div class="stack">
+              <article class="panel ask-panel">
+                <header class="panel-header">
+                  <span class="icon-well"><svg class="icon" aria-hidden="true"><use href="#i-message"/></svg></span>
+                  <div><h2>Ask a question</h2><p>Check a campus rule or find the right document.</p></div>
+                </header>
+
+                <form id="ask-form" novalidate>
+                  <label for="question">Your question</label>
+                  <textarea id="question" rows="3" maxlength="2000" required aria-describedby="ask-error" placeholder="e.g. What is the minimum attendance requirement?"></textarea>
+                  <p id="ask-error" class="form-error" role="alert" hidden></p>
+
+                  <details id="scope-details" class="scope-details">
+                    <summary>
+                      <svg class="icon" aria-hidden="true"><use href="#i-sliders"/></svg>
+                      <span>Refine scope</span><span id="scope-summary" class="scope-count">Optional</span>
+                      <svg class="icon expand-icon" aria-hidden="true"><use href="#i-chevron-down"/></svg>
+                    </summary>
+                    <div class="scope-fields">
+                      <div><label for="program">Programme</label><select id="program"><option value="">Any programme</option><option>SCSET UG</option><option>Other programme</option></select></div>
+                      <div><label for="year">Academic year</label><select id="year"><option value="">Any year</option><option>2026-27</option><option>2025-26</option></select></div>
+                      <div><label for="semester">Semester</label><select id="semester"><option value="">Any semester</option><option>Odd</option><option>Even</option></select></div>
+                      <div><label for="audience">Student group</label><select id="audience"><option value="">Any group</option><option>Freshman</option><option>Returning</option></select></div>
+                    </div>
+                  </details>
+
+                  <div class="ask-actions">
+                    <div class="keyboard-note"><kbd>Ctrl</kbd><kbd>Enter</kbd><span>to submit</span></div>
+                    <button type="submit" class="button primary" id="askbtn"><span id="ask-label">Find evidence</span><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+                  </div>
+                </form>
+
+                <div class="examples">
+                  <h3>Try a question</h3>
+                  <div class="chips">
+                    <button type="button" class="chip" data-question="What is the minimum attendance requirement?"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Attendance</button>
+                    <button type="button" class="chip" data-question="What is the hostel night-out rule?"><svg class="icon" aria-hidden="true"><use href="#i-home"/></svg>Hostel leave</button>
+                    <button type="button" class="chip" data-question="When are odd semester exams in 2026-27?"><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg>Exam calendar</button>
+                    <button type="button" class="chip" data-question="Where can I get a bonafide certificate?"><svg class="icon" aria-hidden="true"><use href="#i-file"/></svg>Certificates</button>
+                  </div>
+                </div>
+              </article>
+
+              <article id="answer" class="panel answer-panel" aria-labelledby="answer-title" hidden></article>
+              <p id="answer-announcement" role="status" class="sr-only"></p>
+            </div>
+
+            <aside class="stack side-column" aria-label="Answer references and recent questions">
+              <article class="panel sources-panel" id="answer-sources" tabindex="-1">
+                <header class="panel-header">
+                  <span class="icon-well"><svg class="icon" aria-hidden="true"><use href="#i-library"/></svg></span>
+                  <div><h2>Answer sources</h2><p id="proofcount">Quotes and applicability</p></div>
+                </header>
+                <div id="proofs"></div>
+                <a class="panel-link" href="#sources" data-view="sources">Browse evidence library<svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+              </article>
+
+              <article class="panel coverage-panel" id="coverage">
+                <h2>Library coverage</h2>
+                <div class="coverage-stats">
+                  <div><strong id="coverage-sources"></strong><span>Official sources</span></div>
+                  <div><strong id="coverage-facts"></strong><span>Curated facts</span></div>
+                </div>
+                <a class="support-link" href="https://helpdesk.bennett.edu.in/index.php" target="_blank" rel="noopener noreferrer">Bennett University Service Desk<svg class="icon" aria-hidden="true"><use href="#i-external"/></svg></a>
+              </article>
+
+              <article class="panel activity-panel" id="activity" hidden>
+                <div class="row"><h2><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>Recent questions</h2><button class="text-button" type="button" id="clear-history">Clear</button></div>
+                <p class="muted">Saved in this browser.</p>
+                <ul id="history-list"></ul>
+              </article>
+            </aside>
+          </div>
+        </section>
+
+        <section id="lab" class="view" aria-labelledby="lab-title" hidden>
+          <header class="page-intro">
+            <span class="icon-well"><svg class="icon" aria-hidden="true"><use href="#i-flask"/></svg></span>
+            <div><h1 id="lab-title" tabindex="-1">Prompt Studio</h1><p>Inspect the prompt, replay recorded Qwen outputs, and validate a model draft against the evidence gate.</p></div>
+          </header>
+          <div class="lab-grid">
+            <article class="panel panel-padded">
+              <div class="row panel-row"><h2 id="versiontitle">Prompt version</h2><button id="copybtn" class="button secondary" type="button"><svg class="icon" aria-hidden="true"><use href="#i-copy"/></svg>Copy prompt</button></div>
+              <div id="versions" class="versions" aria-label="Prompt versions"></div>
+              <p id="change" class="muted"></p>
+              <p class="input-reference" id="lab-question"></p>
+              <pre id="prompttext" class="code" tabindex="0" aria-label="Composed prompt"></pre>
+              <a class="panel-link" href="#ask" data-view="ask">Edit question or scope<svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+            </article>
+
+            <div class="stack">
+              <article class="panel panel-padded">
+                <h2>Validate a draft</h2>
+                <p class="muted">The contract requires a status and up to three approved fact IDs.</p>
+                <label for="draft">Model output</label>
+                <textarea id="draft" class="draft" rows="5" maxlength="6000" spellcheck="false" placeholder='{"status":"answered","fact_ids":["F01"]}'></textarea>
+                <div class="actions"><button id="validatebtn" class="button primary" type="button">Validate draft</button><button id="forgedbtn" class="button secondary" type="button">Try an unapproved ID</button></div>
+                <div id="validation" role="status" hidden></div>
+              </article>
+
+              <article class="panel panel-padded">
+                <h2>Recorded runs</h2>
+                <p class="muted">Qwen2.5-0.5B-Instruct experiments from Milestone 3.</p>
+                <label for="replaycase">Experiment question</label>
+                <select id="replaycase"></select>
+                <p id="replaymeta" class="run-meta"></p>
+                <pre id="modelraw" class="code model-raw" tabindex="0" aria-label="Recorded model output"></pre>
+                <button id="load-replay" class="button secondary" type="button">Use in validator</button>
+              </article>
+
+              <article class="panel panel-padded">
+                <div class="row panel-row"><h2>Local inference</h2><button id="livebtn" class="button secondary" type="button" disabled><svg class="icon" aria-hidden="true"><use href="#i-play"/></svg>Run local model</button></div>
+                <p id="live-note" class="muted">Live runs use the local GGUF server.</p>
+                <div id="live-result" hidden><p id="live-meta" class="run-meta"></p><pre class="code model-raw" id="live-raw" tabindex="0" aria-label="Local model output"></pre></div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="sources" class="view" aria-labelledby="sources-title" hidden>
+          <header class="page-intro">
+            <span class="icon-well"><svg class="icon" aria-hidden="true"><use href="#i-library"/></svg></span>
+            <div><h1 id="sources-title" tabindex="-1">Evidence Library</h1><p>Browse the official documents and the curated policy excerpts CampusCompass can cite.</p></div>
+          </header>
+          <div class="library-toolbar">
+            <label class="search-field" for="source-search"><svg class="icon" aria-hidden="true"><use href="#i-search"/></svg><span class="sr-only">Search sources and evidence</span><input type="search" id="source-search" placeholder="Search topics, sources or fact IDs"></label>
+            <label class="filter-field" for="source-filter"><svg class="icon" aria-hidden="true"><use href="#i-filter"/></svg><span class="sr-only">Filter by source type</span><select id="source-filter"><option value="all">All sources</option><option value="historical">Historical documents</option><option value="dated">Calendar and resources</option></select></label>
+            <span id="source-summary" class="muted" role="status"></span>
+          </div>
+          <div id="sourcecards" class="source-grid"></div>
+        </section>
+
+        <section id="tests" class="view" aria-labelledby="tests-title" hidden>
+          <header class="page-intro">
+            <span class="icon-well"><svg class="icon" aria-hidden="true"><use href="#i-chart"/></svg></span>
+            <div><h1 id="tests-title" tabindex="-1">Evaluation</h1><p>Re-run the helpdesk checks and review the recorded prompt experiments.</p></div>
+          </header>
+          <div id="metrics" class="metrics"></div>
+          <article class="panel panel-padded">
+            <div class="row panel-row"><h2>Helpdesk regression suite</h2><button class="button primary" type="button" id="runbench"><svg class="icon" aria-hidden="true"><use href="#i-refresh"/></svg>Run checks</button></div>
+            <p class="muted">The suite checks expected statuses and evidence IDs on authored development and challenge questions.</p>
+            <div class="bench-toolbar"><label for="bench-filter">Cases</label><select id="bench-filter"><option value="all">All cases</option><option value="development">Development</option><option value="challenge">Challenge</option></select><p id="bench-summary" role="status"></p></div>
+            <div id="bench"></div>
+          </article>
+          <article class="panel panel-padded model-table-panel">
+            <h2>Recorded model experiments</h2>
+            <p class="muted">Eight development questions per version, scored against the archived engine and corpus. One completion per case.</p>
+            <div id="modeltable"></div>
+          </article>
+        </section>
+
+        <section id="project" class="view" aria-labelledby="project-title" hidden>
+          <header class="page-intro">
+            <span class="icon-well"><svg class="icon" aria-hidden="true"><use href="#i-compass"/></svg></span>
+            <div><h1 id="project-title" tabindex="-1">About CampusCompass</h1><p>Team AetherMind’s prompt engineering project for Bennett University.</p></div>
+          </header>
+          <article class="panel panel-padded">
+            <h2>How a question becomes a cited answer</h2>
+            <div class="workflow">
+              <div><svg class="icon" aria-hidden="true"><use href="#i-search"/></svg><h3>Retrieve</h3><p>Rank the curated fact cards against the question.</p></div>
+              <div><svg class="icon" aria-hidden="true"><use href="#i-sliders"/></svg><h3>Resolve scope</h3><p>Match the programme, calendar, semester and student group.</p></div>
+              <div><svg class="icon" aria-hidden="true"><use href="#i-shield"/></svg><h3>Validate</h3><p>Check model selections against the approved IDs when running experiments.</p></div>
+              <div><svg class="icon" aria-hidden="true"><use href="#i-library"/></svg><h3>Cite</h3><p>Show curated wording with source quotes, sections and dates.</p></div>
+            </div>
+          </article>
+          <div class="about-grid">
+            <article class="panel panel-padded"><h2>Project team</h2><ul class="team-list" id="team"></ul></article>
+            <article class="panel panel-padded"><h2>Evidence limits</h2><p class="muted">The helpdesk covers selected Bennett University topics. Historical notices need an applicability check, and personal records and fee amounts require the university’s official services.</p><a class="panel-link" href="#sources" data-view="sources">Review sources<svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a></article>
+          </div>
+        </section>
+      </div>
+
+      <footer class="footer"><span>CampusCompass · Team AetherMind</span><span>Bennett University · SCSE4041 project</span></footer>
+    </main>
+  </div>
+
+  <p id="toast" class="toast" role="status" hidden></p>
+  <script>/*DATA*/</script>
+  <script>/*ENGINE*/</script>
+  <script>/*APP*/</script>
+</body>
+</html>
